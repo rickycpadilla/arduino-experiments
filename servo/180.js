@@ -4,8 +4,8 @@ var board = new five.Board();
 board.on("ready", function() {
   var servo = new five.Servo({
     pin: 10,
-    range: [45, 135],
-    startAt: 135
+    range: [35, 145],
+    startAt: 35
   }
   );
 
